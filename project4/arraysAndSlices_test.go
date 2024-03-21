@@ -51,7 +51,7 @@ func TestWithoutRepeated2(t *testing.T) {
 			t.Fatalf("error in length")
 
 		}
-		for var i := 0; i < len(want); i++{
+		for i := 0; i < len(want); i++ {
 			if got[i] != want[i] {
 				t.Errorf("mismatch, expected %d at %d but got %d", got[i], i, want[i])
 			}
